@@ -23,3 +23,26 @@ User Stories for CSS:
 
 /* TODO: Add CSS code here to fulfill the above mentioned user stories. */
 
+#parent > #child1, 
+#parent > #child2 {
+    background-color: #ADD8E6; /* Light blue background for child elements */
+}
+
+/* User Story 2: Descendant Selector */
+#parent h2 {
+    font-size: 20px; /* Font size of 20px for h2 elements within #parent */
+    color: #008000; /* Green color for h2 text */
+}
+
+/* User Story 3: Adjacent Sibling Selector */
+#parent + #sibling {
+    border: 1px solid #000000; /* 1px solid black border */
+    background-color: #FFFF00; /* Yellow background color */
+}
+
+/* User Story 4: General Sibling Selector */
+#general-sibling, 
+#general-sibling2 {
+    background-color: #D3D3D3; /* Light gray background for general sibling elements */
+    margin-top: 10px; /* 10px margin between these elements */
+}
